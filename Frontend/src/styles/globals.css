@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f5f8ff;
+  color: #071b4d;
+}
+
+.hero-bg {
+  background:
+    linear-gradient(90deg, rgba(245,248,255,0.96), rgba(245,248,255,0.35)),
+    url("https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=1600");
+  background-size: cover;
+  background-position: center;
+}

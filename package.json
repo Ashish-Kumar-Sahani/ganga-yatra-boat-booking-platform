@@ -1,0 +1,24 @@
+{
+  "name": "ganga-yatra-boat-booking-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd Backend && npm run dev",
+    "frontend": "cd Frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/multer": "^2.1.0",
+    "concurrently": "^10.0.3"
+  },
+  "dependencies": {
+    "cloudinary": "^2.10.0",
+    "multer": "^2.2.0",
+    "razorpay": "^2.9.6"
+  }
+}
